@@ -1,6 +1,8 @@
 fa = fluent/functional async
 ============================
 
+this is a test
+
 `fa` is a fluent and functional async library. Inspired by async[1] and
 underscore[2], it takes the functional operators and adds some modifiers: 
 to enable a queue depth, run to completion regardless of errors, run in 
