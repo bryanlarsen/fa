@@ -84,7 +84,7 @@ should **only** have **one** parameter, **there is no error parameter**.
 ```js
 fa.reject([0,1,2,3], function(num,cb) {
   cb(x % 2 == 0);  // no err parameter
-}, function(result) {
+}, function(err, result) {
   // no err parameter
   // result: [1,3]
 }
